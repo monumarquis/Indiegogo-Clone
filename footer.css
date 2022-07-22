@@ -1,0 +1,120 @@
+#footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+.bg-color{
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 50px;
+}
+#footer>div>ul{
+    list-style: none;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 46, 46);
+    
+}
+#footer>div>ul>li{
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+#footer>div>p{
+    color: rgb(78, 76, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#footer>div:last-child{
+    text-align: center;
+}
+#footer>div:last-child>h4{
+    margin-top: -3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 20, 20);
+}
+#footer>div:last-child>p{
+    margin-top: -8px;
+    color: rgb(24, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    line-height: 25px;
+    
+}
+#footer>div:last-child>button{
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e51075;
+    margin-right: 10px;
+}
+#email-button{
+    width: 90%;
+    padding: 15px 15px;
+}
+#terms-condition{
+    display: flex;
+    
+}
+#terms-condition>p>u{
+    color:  #e51075;
+    font-weight: bold;
+}
+#terms-condition>p{
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;text-align: left;
+}
+#checkbox{
+    width: 20px;
+    padding: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(245, 238, 238);
+}
+#message{
+    width: 20%;
+}
+.social-media-logo{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.social-media-logo>img{
+width: 1.5%;
+margin-left: 20px;
+
+}
+.social-media-logo>button{
+    padding: 10px 45px;
+    border: 0.5px solid gainsboro;
+    font-size: 12px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.bg-color>hr{
+    border: 1px solid rgb(214, 208, 208);
+    color: rgb(214, 208, 208);
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.last_section{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+.last_section>p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
