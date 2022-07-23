@@ -1,0 +1,87 @@
+#signup form{
+    width: 30%;
+    padding: 20px;
+    padding-bottom: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+
+}
+#signup input{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 13px ;
+    margin-bottom: 25px;
+    
+}
+#signup input[type="submit"]{
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #e51075;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+#signup form div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin: 0px
+}
+#signup form div p{
+display: flex;
+align-items: center;
+}
+#signup input[type="checkbox"]{
+    display: inline;
+    margin-right: 0px;
+    width: 10%;
+}
+#signup hr{
+    display: block;
+    width: 80%;
+    margin: auto;
+    
+}
+#signup p:nth-child(3){
+    font-size: 20px;
+    text-align: center;
+    color: rgb(94, 91, 91);
+    margin-bottom: 35px;
+}
+#signup label{
+    margin-left: 12%;
+    color: rgb(44, 42, 42);
+    font-size: 18px;
+}
+#signup h1{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(27, 27, 27);
+}
+#signup u{
+    display: block;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+#remove{
+    display: block;
+    border: none;
+    font-size: 17px;
+    color: rgb(65, 62, 62);
+    font-weight: bolder;
+    background-color: #fff;
+   margin-left: auto;
+   margin-bottom: 5px;
+   cursor: pointer;
+    
+}
+#signup button:hover{
+    color: #e51075;
+}
+#go-to-log-in{
+    display: flex;
+}

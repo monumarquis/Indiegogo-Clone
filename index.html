@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="card-Slider.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div id="navbar">
@@ -22,8 +24,8 @@
         <p>For Enterpreneur</p>
         <p>Start a Campaign</p>
          <p>____</p>
-        <p>Log In</p>
-        <p>Sign Up</p>
+        <p id="popup-form">Log In</p>
+        <p class="signup-form">Sign Up</p>
      </div>
 
     </div>
@@ -47,7 +49,7 @@
     <div class="after_carousel">
               <p>Find it first on Indiegogo.</p>
               <p>Indiegogo is where early adopters and innovation seekers find lively,imageinative tech before hits the mainstream.</p>
-             <button>SIGN UP NOW</button>
+             <button class="signup-form">SIGN UP NOW</button>
              <button>LEARN MORE</button>
     </div>
     <h1 id="heading-project">Popular Projects</h1>
@@ -206,7 +208,7 @@
                 <h1 class="overlar-text">LGBQTIA+CREATORS</h1>
             </div>
              <div class="Collection-text" >
-                       <p>show your support  in honor of Pride Month </p>
+                       <p>Show your support  in honor of Pride Month </p>
                        <p>SEE THE COLLECTION ></p>
              </div>
         </div>
@@ -227,7 +229,7 @@
     <div id="category">
         <h1>Which Categories intrest you ?</h1>
         <p>Discover projects just for you and great recommendation when you select your intrests.</p>
-        <button>SIGN UP AND SELECT INTRESTS</button>
+        <button class="signup-form">SIGN UP AND SELECT INTRESTS</button>
         <p>Or explore our top categories</p>
     </div>
 
@@ -297,7 +299,7 @@
          <div>
             <h1>Clever Things For Curious  Humans</h1>
             <p>There’s no better place to start the hunt for something new and special. Begin on Indiegogo to find clever and unconventional things that solve everyday problems large and small.</p>
-             <button>SIGN UP NOW</button>
+             <button class="signup-form">SIGN UP NOW</button>
              <button>LEARN MORE > </button>
          </div>
     </div>
@@ -348,7 +350,7 @@
                 <p>I agree to the <u>Term of Use</u>and have read and understand the <u>Privacy Policy</u></p>
 
             </div>
-            <button>SIGN ME UP</button>
+            <button class="signup-form">SIGN ME UP</button>
 
         </div>
     </div>
@@ -374,6 +376,45 @@
     <p>Accessibility</p>
     <p>©2022 Indiegogo.Inc.All Rights Reserved</p>
    </div>
+</div>
+
+<div id="signup" class="signup-form">
+    <div class="flex_set">
+     <form>
+        <button id="remove">x</button>
+         <h1>Welcome back !</h1>
+        <p>Sign up to join Indiegogo</p>
+         <label>First Name</label>
+        <input type="text" placeholder="Your First Name" id="email">
+        <label>Last Name</label>
+        <input type="text" placeholder="Your Last Name" id="password">
+        <label>Email</label>
+        <input type="text" placeholder="Your E-mail" id="email">
+        <label>Passsword</label>
+        <input type="text" placeholder="Your password" id="password">
+        <input type="submit" value="CREATE ACCOUNT">
+
+    </form>    
+   </div>
+</div>
+
+<div id="login" class="">
+    <div class="flex_set">
+<form>
+    <button id="reomve">x</button>
+    <h1>Welcome back !</h1>
+        <p>Log in to continue</p>
+            <label>Email</label>
+            <input type="text" placeholder="Enter E-mail" id="email">
+            <label>Passsword</label>
+            <input type="text" placeholder="Enter password" id="password">
+            <input type="submit" value="Log in">
+            <u>Forgot your password ?</u>
+    
+    </form>
+
+</form>
+</div>
 </div>
 </body>
 </html>

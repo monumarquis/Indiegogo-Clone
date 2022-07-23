@@ -33,3 +33,24 @@ document.querySelector("#left_btn").addEventListener("click", function(){
     y.innerText=image_details[no_of_image].description
     document.querySelector(".count").innerText=(no_of_image+1)+"/4"
 })
+
+document.querySelector("#popup-form").addEventListener("click" ,function(){
+    document.querySelector("#login").style.display="flex"
+})
+
+document.querySelector("#reomve").addEventListener("click",function(){
+    document.querySelector("#login").style.display="none"
+    window.stop()
+})
+
+let x = document.querySelectorAll(".signup-form")
+console.log(x)
+x.forEach(function(el){
+    el.addEventListener("click" ,function(){
+        document.querySelector("#signup").style.display="flex"
+    })
+})
+document.querySelector("#remove").addEventListener("click",function(){
+    document.querySelector("#signup").style.display="none"
+    window.stop()
+})
